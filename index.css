@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("5E2A0325.jpg");
+    /* background-image: url("5E2A0325.jpg"); */
     background-position: center;
     background-repeat: no-repeat !important;
     background-size: 100%;
@@ -16,10 +16,6 @@ body {
 @keyframes body {
     0% {opacity: 0;}
     100% {opacity: 1;}
-}
-
-.container {
-    background: transparent;
 }
 
 #name {
