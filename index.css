@@ -11,6 +11,7 @@ body {
     color: white;
     animation-name: body;
     animation-duration: 12s;
+    overflow: hidden;
 }
 
 /* @keyframes body {
@@ -25,7 +26,7 @@ body {
     animation-duration: 10s;
     background-color: black;
     opacity: 0.6;
-    padding: 15%;
+    padding: 12%;
 }
 
 /* @keyframes title {
