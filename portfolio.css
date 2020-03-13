@@ -5,6 +5,7 @@
 
 body {
     background-color: black !important;
+    font-family: 'Times New Roman', Times, serif !important;
 }
 
 /* navbar */
@@ -13,6 +14,7 @@ body {
     color: white;
     margin: 8px;
     font-size: 25px;
+    font-family: 'Times New Roman', Times, serif !important;
 }
 
 .nav {
@@ -22,6 +24,7 @@ body {
     margin: 8px;
     margin-right: 10px;
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif !important;
 }
 
 #logo:hover,
