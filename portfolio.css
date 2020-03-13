@@ -1,3 +1,4 @@
+/* general styling */
 * {
     box-sizing: border-box;
 }
@@ -6,11 +7,26 @@ body {
     background-color: black !important;
 }
 
-.link {
+/* navbar */
+#logo {
     text-decoration: none;
-    font-size: 20px;
     color: white;
-    margin: 15px;
+    margin: 8px;
+    font-size: 25px;
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin: 8px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#logo:hover,
+.nav:hover {
+    opacity: 0.5;
 }
 
 #portfolio {
