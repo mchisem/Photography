@@ -5,10 +5,14 @@
 body {
     background-image: url("5E2A0325.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     background-size: 100%;
     background-position-y: 11%;
     color: white;
+}
+
+.container {
+    background: transparent;
 }
 
 #name {
@@ -21,13 +25,6 @@ body {
 h1 {
     font-size: 90px;
 }
-
-/* #links {
-    font-size: 40px;
-    text-align: center;
-    animation-name: links;
-    animation-duration: 12s;
-} */
 
 nav {
     margin: 25px;
