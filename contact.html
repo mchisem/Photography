@@ -4,13 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+
+    <link rel="stylesheet" href="contact.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav>
-        <a href="index.html" id="logo">Maya Chisem</a>
-        <a href="about.html">About Me</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+        <nav id="nav">
+            <a href="index.html" id="logo">Maya Chisem</a>
+    
+            <a href="contact.html" class="nav">Contact</a>
+            <a href="portfolio.html" class="nav">Portfolio</a>
+            <a href="about.html" class="nav">About</a>
+        </nav>
+
+        <form class="form">
+            <div class="form-container" id="contact">
+              <section class="form-section">
+                  <h1 class="contact" style="padding-top: 150px;" id="contact">Contact</h1>
+              
+                  <div class="form-container"> 
+                      <input type="text" class="form-control" id="form-name" name="user-name" placeholder="Jane Doe">   
+                  </div>
+      
+                  <div class="form-container"> 
+                      <input type="text" class="form-control" id="form-email" name="user-email" placeholder="example@gmail.com">   
+                  </div>
+      
+                  <div class="form-container" id="form-message"> 
+                      <input class="form-control" id="message" maxlength="300" rows="7" required></input>
+                  </div>
+      
+                  <input type="submit" id="form-submit" value="Submit">  
+      
+              </div>  
+          </form>
+    
+        <footer id="footer">
+            <a href="https://www.instagram.com/mayachizam/" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/maya-chisem-030827132/" class="fa fa-linkedin"></a>
+            <a href="https://github.com/mchisem" class="fa fa-github"></a>
+        </footer>     
 </body>
 </html>
