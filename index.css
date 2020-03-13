@@ -30,6 +30,7 @@ nav {
     margin: 25px;
     animation-name: nav;
     animation-duration: 12s;
+    background: transparent;
 }
 
 #about {
