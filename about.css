@@ -4,7 +4,6 @@
 }
 
 body {
-    background-color: black;
     background-image: url("3me.JPG");
     background-position-y: -500px;
     background-size: 100%;
@@ -35,16 +34,14 @@ body {
 }
 
 .main-container {
-    padding: 35px;
-    height: 700px;
-    margin: 15px;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 .main-section {
     background-color: black;
     font-size: 22px;
     padding: 20px;
-    margin-right: 50%;
     opacity: 0.7;
+    margin: 25px;
+    margin-right: 50%;
 }
