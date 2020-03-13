@@ -3,7 +3,7 @@
 }
 
 body {
-    /* background-image: url("5E2A0325.jpg"); */
+    background-image: url("5E2A0325.jpg");
     background-position: center;
     background-repeat: no-repeat !important;
     background-size: 100%;
@@ -13,22 +13,23 @@ body {
     animation-duration: 12s;
 }
 
-@keyframes body {
+/* @keyframes body {
     0% {opacity: 0;}
     100% {opacity: 1;}
-}
+} */
 
 #name {
     text-align: center;
     margin-top: 26%;
     animation-name: title;
     animation-duration: 10s;
+    background-color: thistle;
 }
 
-@keyframes title {
+/* @keyframes title {
     0% {opacity: 0;}
     100% {opacity: 1;}
-}
+} */
 
 h1 {
     font-size: 90px;
@@ -38,13 +39,13 @@ nav {
     margin: 25px;
     animation-name: nav;
     animation-duration: 12s;
-    background: transparent;
+    background-color: tomato;
 }
 
-@keyframes nav {
+/* @keyframes nav {
     0% {opacity: 0;}
     100% {opacity: 1;}
-}
+} */
 
 #about {
     float: right;
