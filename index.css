@@ -23,7 +23,8 @@ body {
     margin-top: 26%;
     animation-name: title;
     animation-duration: 10s;
-    background-color: thistle;
+    background-color: black;
+    opacity: 0.6;
 }
 
 /* @keyframes title {
