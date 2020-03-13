@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("5E2A0325.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 11%;
+    color: white;
+}
+
+#name {
+    text-align: center;
+    margin-top: 26%;
+    animation-name: title;
+    animation-duration: 10s;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+/* #links {
+    font-size: 40px;
+    text-align: center;
+    animation-name: links;
+    animation-duration: 12s;
+} */
+
+nav {
+    margin: 25px;
+    animation-name: nav;
+    animation-duration: 12s;
+}
+
+#about {
+    float: right;
+}
+
+#about,
+#portfolio {
+    font-size: 20px;
+    color: white;
+}
+
+#about:hover,
+#portfolio:hover {
+    opacity: 0.5;
+}
