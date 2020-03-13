@@ -20,23 +20,21 @@ body {
 } */
 
 #name {
+    text-decoration: none;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 22%;
     animation-name: title;
     animation-duration: 10s;
-    /* padding: 12%; */
     background-image: none;
     opacity: 0.7;
+    font-size: 90px;
+    color: white;
 }
 
 /* @keyframes title {
     0% {opacity: 0;}
     100% {opacity: 1;}
 } */
-
-h1 {
-    font-size: 90px;
-}
 
 nav {
     animation-name: nav;
@@ -57,6 +55,10 @@ nav {
     float: right;
 }
 
+#portfolio {
+    float: left;
+}
+
 #about,
 #portfolio {
     font-size: 20px;
@@ -66,11 +68,12 @@ nav {
 #about:hover,
 #portfolio:hover {
     opacity: 0.5;
+    font-size: 23px;
 }
 
 /* footer */ 
 #footer {
-    padding-top: 220px;
+    padding-top: 265px;
     clear: both;
     font-size: 30px;
     color: #fff;
@@ -90,7 +93,7 @@ nav {
 
   .fa:hover,
   .link:hover {
-    color: cornflowerblue;
+    opacity: 0.5;
     transition: transform 150ms;
     transform: translateY(-3px);
   }
