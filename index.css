@@ -42,7 +42,6 @@ nav {
     margin: 25px;
     animation-name: nav;
     animation-duration: 12s;
-    background-color: tomato;
 }
 
 /* @keyframes nav {
