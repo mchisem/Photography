@@ -21,12 +21,12 @@ body {
 
 #name {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 11%;
     animation-name: title;
     animation-duration: 10s;
-    background-color: black;
     opacity: 0.6;
     padding: 12%;
+    padding-bottom: 22%;
 }
 
 /* @keyframes title {
@@ -39,9 +39,11 @@ h1 {
 }
 
 nav {
-    margin: 25px;
     animation-name: nav;
     animation-duration: 12s;
+    margin-top: 0px;
+    width: 100%;
+    padding: 25px;
 }
 
 /* @keyframes nav {
