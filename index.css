@@ -9,6 +9,13 @@ body {
     background-size: 100%;
     background-position-y: 11%;
     color: white;
+    animation-name: body;
+    animation-duration: 12s;
+}
+
+@keyframes body {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .container {
@@ -22,6 +29,11 @@ body {
     animation-duration: 10s;
 }
 
+@keyframes title {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 h1 {
     font-size: 90px;
 }
@@ -31,6 +43,11 @@ nav {
     animation-name: nav;
     animation-duration: 12s;
     background: transparent;
+}
+
+@keyframes nav {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 #about {
