@@ -1,0 +1,120 @@
+/* general styling */
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+#logo {
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+    font-size: 25px;
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin: 8px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#logo:hover,
+.nav:hover {
+    opacity: 0.5;
+}
+
+/* form */
+#contact {
+    font-size: 25px;
+}
+
+.form-container {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0px;
+}
+
+  #form-name {
+    margin-bottom: 15px;
+    margin-top: -10px;
+    position: relative;
+  }
+  
+  #form-email {
+    margin-top: -10px;
+    position: relative;
+  }
+
+  #form-message{
+    margin-top: 10px;
+    position: relative;
+  } 
+
+  .form-control {
+      width: 450px;
+      height: 35px;
+      position: relative;
+  }
+
+  #message {
+      width: 450px;
+      height: 300px;
+      position: relative;
+  }
+
+#form-submit  {
+    background-color: darkblue; 
+    color: #fff;
+    padding: 5px 25px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+}
+    
+#form-submit:hover {
+    opacity: 0.6;
+    font-size: larger;
+}
+
+.form-section {
+    margin-bottom: -100px;
+}
+
+/* footer */
+#footer {
+    padding-top: 200px;
+    clear: both;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  .fa:hover,
+  .link:hover {
+    color: cornflowerblue;
+    transition: transform 150ms;
+    transform: translateY(-3px);
+  }
