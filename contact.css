@@ -90,31 +90,3 @@ body {
 .form-section {
     margin-bottom: -100px;
 }
-
-/* footer */
-#footer {
-    padding-top: 200px;
-    clear: both;
-    font-size: 14px;
-    color: #fff;
-    text-align: center;
-    width: 100%;
-    position: relative;
-    margin-bottom: 10px;
-    text-decoration: none;
-  }
-
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-  }
-
-  .fa:hover,
-  .link:hover {
-    color: cornflowerblue;
-    transition: transform 150ms;
-    transform: translateY(-3px);
-  }
