@@ -4,18 +4,22 @@
 }
 
 body {
-    background-image: url("3me.JPG");
-    background-position-y: -500px;
+    background-image: url("5E2A0325.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    background-position-y: 0px;
     background-size: 100%;
     scroll-behavior: smooth;
     color: white;
+    overflow: hidden;
 }
 
 /* navbar */
 #logo {
     text-decoration: none;
     color: white;
-    margin: 8px;
+    margin: 15px;
     font-size: 25px;
 }
 
@@ -23,7 +27,7 @@ body {
     text-decoration: none;
     color: white;
     float: right;
-    margin: 8px;
+    margin: 15px;
     margin-right: 10px;
     font-size: 20px;
 }
@@ -35,6 +39,8 @@ body {
 
 .main-container {
     margin-top: 6%;
+    background-color: transparent;
+    background-image: none;
 }
 
 .main-section {
@@ -44,4 +50,6 @@ body {
     opacity: 0.7;
     margin: 25px;
     margin-right: 50%;
+    position: relative;
+    display: flex;
 }

@@ -12,7 +12,8 @@ body {
 #logo {
     text-decoration: none;
     color: white;
-    margin: 8px;
+    margin: 15px !important;
+    padding: 15px;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif !important;
 }
@@ -21,7 +22,7 @@ body {
     text-decoration: none;
     color: white;
     float: right;
-    margin: 8px;
+    padding: 15px;
     margin-right: 10px;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif !important;
@@ -29,6 +30,8 @@ body {
 
 #logo:hover,
 .nav:hover {
+    text-decoration: none;
+    color: white;
     opacity: 0.5;
 }
 
