@@ -24,9 +24,9 @@ body {
     margin-top: 11%;
     animation-name: title;
     animation-duration: 10s;
-    opacity: 0.6;
     padding: 12%;
     padding-bottom: 22%;
+    background-image: none;
 }
 
 /* @keyframes title {
@@ -44,6 +44,7 @@ nav {
     margin-top: 0px;
     width: 100%;
     padding: 25px;
+    background-image: none;
 }
 
 /* @keyframes nav {
