@@ -7,8 +7,8 @@ body {
     background-image: url("3me.JPG");
     background-position: center;
     background-repeat: no-repeat !important;
-    background-size: 100%;
-    background-position-y: 30%;
+    background-size: 90%;
+    background-position-y: 40%;
     color: white;
     overflow: hidden;
 }
