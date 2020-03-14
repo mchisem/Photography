@@ -16,8 +16,6 @@ body {
     text-decoration: none;
     text-align: center;
     margin-top: 20%;
-    animation-name: title;
-    animation-duration: 10s;
     background-image: none;
     opacity: 0.7;
     font-size: 90px;
@@ -28,25 +26,14 @@ body {
     font-size: 95px;
 }
 
-/* @keyframes title {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-} */
-
 nav {
-    animation-name: nav;
-    animation-duration: 12s;
+    position: relative;
     margin-top: 0px;
     width: 100%;
     padding: 55px;
     background-image: none;
     opacity: 0.7;
 }
-
-/* @keyframes nav {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-} */
 
 #about {
     float: right;
@@ -70,7 +57,6 @@ nav {
 
 /* footer */ 
 #footer {
-    padding-top: 300px;
     clear: both;
     font-size: 30px;
     color: #fff;
