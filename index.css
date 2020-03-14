@@ -3,6 +3,7 @@
 }
 
 body {
+    background-color: black;
     background-image: url("3me.JPG");
     background-position: center;
     background-repeat: no-repeat !important;
