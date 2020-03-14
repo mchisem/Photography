@@ -94,6 +94,11 @@ nav {
     padding: 55px;
   }
 
+  #contact {
+      float: right;
+      margin-left: 85%;
+  }
+
   #ref {
       font-size: 95px;
       clear: both;
