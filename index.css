@@ -4,11 +4,11 @@
 
 body {
     background-color: black;
-    background-image: url("3me.JPG");
+    background-image: url("1-me.jpg");
     background-position: center;
     background-repeat: no-repeat !important;
     background-size: 100%;
-    background-position-y: 30%;
+    background-position-y: 50%;
     color: white;
     overflow: hidden;
 }
