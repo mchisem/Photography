@@ -82,14 +82,16 @@ nav {
     transform: translateY(-3px);
   }
 
-  #nav {
+  .nav {
     clear: both;
     color: #fff;
     width: 100%;
     position: absolute;
     text-decoration: none;
     opacity: 0.7;
+    font-size: 20px;
     top: 0;
+    padding: 55px;
   }
 
   #ref {
