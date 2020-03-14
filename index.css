@@ -85,7 +85,7 @@ nav {
   }
 
   /* attempt */
-  .top {
+  #nav {
     clear: both;
     color: #fff;
     width: 100%;
@@ -95,11 +95,9 @@ nav {
     font-size: 20px;
     top: 0;
     padding: 55px;
-
   }
 
   .nav {
-    clear: both;
     color: #fff;
     width: 100%;
     position: absolute;
@@ -108,14 +106,16 @@ nav {
     font-size: 20px;
     top: 0;
     padding: 55px;
+    /* margin-left: 80%; */
   }
 
-  #contact {
-      margin-left: 80%;
+  #portfolio {
+      text-decoration: none;
+      opacity: 0.7;
+      /* margin-right: 83%; */
   }
 
-  .nav:hover,
-  #contact:hover {
+  .nav:hover {
       opacity: 0.5;
       font-size: 23px;
   }
