@@ -4,16 +4,17 @@
 
 body {
     background-color: black;
-    background-image: url("3me.JPG");
-    background-position: center;
-    background-repeat: no-repeat !important;
-    background-size: 100%;
-    background-position-y: 40%;
+    /* background-image: url("3me.JPG"); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat !important; */
+    /* background-size: 100%; */
+    /* background-position-y: 40%; */
     color: white;
     overflow: hidden;
 }
 
 #name {
+    position: absolute;
     text-decoration: none;
     text-align: center;
     margin-top: 20%;
@@ -28,7 +29,7 @@ body {
 }
 
 nav {
-    position: relative;
+    position: absolute;
     margin-top: 0px;
     width: 100%;
     padding: 55px;
@@ -83,6 +84,8 @@ nav {
     transform: translateY(-3px);
   }
 
+  /* attempt */
+
   .nav {
     clear: both;
     color: #fff;
@@ -93,11 +96,6 @@ nav {
     font-size: 20px;
     top: 0;
     padding: 55px;
-  }
-
-  #contact {
-      float: right;
-      margin-left: 85%;
   }
 
   #ref {
@@ -116,4 +114,12 @@ nav {
   #ref:hover {
         opacity: 0.5;
         font-size: 100px;
+  }
+
+  #back {
+      top: -500px;
+      bottom: 0;
+      left: 0;
+      background-size: 100%;
+      position: absolute;
   }
