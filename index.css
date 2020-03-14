@@ -7,32 +7,18 @@ body {
     background-image: url("3me.JPG");
     background-position: center;
     background-repeat: no-repeat !important;
-    background-size: 90%;
-    background-position-y: 40%;
+    background-size: 100%;
+    background-position-y: 30%;
     color: white;
     overflow: hidden;
 }
 
-#name {
-    position: absolute;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 20%;
-    background-image: none;
-    opacity: 0.7;
-    font-size: 90px;
-    color: white;
-}
-
-#name:hover {
-    font-size: 95px;
-}
-
+/* navbar */
 nav {
     position: absolute;
     margin-top: 0px;
     width: 100%;
-    padding: 55px;
+    padding: 80px;
     background-image: none;
     opacity: 0.7;
 }
@@ -55,6 +41,25 @@ nav {
 #portfolio:hover {
     opacity: 0.5;
     font-size: 23px;
+}
+
+  /* name */
+  #ref {
+    font-size: 95px;
+    clear: both;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    text-decoration: none;
+    opacity: 0.7;
+    margin-top: 27%;
+    top: 0;
+}
+
+#ref:hover {
+      opacity: 0.5;
+      font-size: 100px;
 }
 
 /* footer */ 
@@ -83,65 +88,3 @@ nav {
     transition: transform 150ms;
     transform: translateY(-3px);
   }
-
-  /* attempt */
-  #nav {
-    clear: both;
-    color: #fff;
-    width: 100%;
-    position: absolute;
-    text-decoration: none;
-    opacity: 0.7;
-    font-size: 20px;
-    top: 0;
-    padding: 55px;
-  }
-
-  .nav {
-    color: #fff;
-    width: 100%;
-    position: absolute;
-    text-decoration: none;
-    opacity: 0.7;
-    font-size: 20px;
-    top: 0;
-    padding: 55px;
-    /* margin-left: 80%; */
-  }
-
-  #portfolio {
-      text-decoration: none;
-      opacity: 0.7;
-      /* margin-right: 83%; */
-  }
-
-  .nav:hover {
-      opacity: 0.5;
-      font-size: 23px;
-  }
-
-  #ref {
-      font-size: 95px;
-      clear: both;
-      color: #fff;
-      text-align: center;
-      width: 100%;
-      position: absolute;
-      text-decoration: none;
-      opacity: 0.7;
-      margin-top: 27%;
-      top: 0;
-  }
-
-  #ref:hover {
-        opacity: 0.5;
-        font-size: 100px;
-  }
-
-  /* #back {
-      top: -500px;
-      bottom: 0;
-      left: 0;
-      background-size: 100%;
-      position: absolute;
-  } */
