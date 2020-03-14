@@ -84,6 +84,12 @@ nav {
 
   #ref {
       font-size: 40px;
-      background: no-repeat;
-      background-image: none;
+      clear: both;
+      color: #fff;
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      text-decoration: none;
+      opacity: 0.7;
+      top: 0;
   }
