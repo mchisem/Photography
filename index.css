@@ -7,8 +7,9 @@ body {
     background-image: url("1-me.jpg");
     background-position: center;
     background-repeat: no-repeat !important;
-    background-size: 100%;
-    background-position-y: 50%;
+    /* background-size: 100%; */
+    background-position-y: 30%;
+    min-height: 100vh;
     color: white;
     overflow: hidden;
 }
