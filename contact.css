@@ -33,7 +33,12 @@ body {
 
 /* form */
 #contact {
-    font-size: 25px;
+    /* font-size: 45px; */
+    color: black;
+}
+
+.form {
+    margin-top: 10%;
 }
 
 .form-container {
@@ -41,17 +46,14 @@ body {
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 0px;
 }
 
   #form-name {
-    margin-bottom: 15px;
-    margin-top: -10px;
     position: relative;
+    margin-bottom: 10px;
   }
   
   #form-email {
-    margin-top: -10px;
     position: relative;
   }
 
@@ -73,9 +75,8 @@ body {
   }
 
 #form-submit  {
-    background-color: darkblue; 
-    color: #fff;
-    padding: 5px 25px;
+    /* background-color: darkblue;  */
+    padding: 5px 15px;
     font-size: 18px;
     text-align: center;
     margin-top: 30px;
@@ -84,7 +85,6 @@ body {
     
 #form-submit:hover {
     opacity: 0.6;
-    font-size: larger;
 }
 
 .form-section {
