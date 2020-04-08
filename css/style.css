@@ -100,9 +100,19 @@ nav {
     justify-content: center;
 } 
 
+.headline {
+    font-size: 45px;
+}
+
+/* .headline:hover,
+.caption {
+    background-color: black;
+} */
+
 .carousel-item {
     height: 640px;
     width: 100vw;
+    font-size: 22px;
 }
 
 .carousel-item::after {
@@ -113,5 +123,5 @@ nav {
     position: absolute;
     top: 0;
     left: 0; 
-    opacity: 0.2;
+    opacity: 0.1;
 }
