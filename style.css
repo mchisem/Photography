@@ -1,0 +1,117 @@
+/* general styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+/* navbar */
+nav {
+    background: none;
+    display: grid !important;
+    grid-template-columns: 2% 1fr 1fr 2% !important;
+    height: 10vh !important;
+    align-content: center !important;
+}
+
+#logo {
+    text-decoration: none !important;
+    grid-column: 2/3 !important;
+    color: white !important;
+    font-size: 35px !important;
+}
+
+.list {
+    text-decoration: none;
+    color: white;
+    font-size: 22px !important;
+    margin-left: 10px !important;
+    padding: 5px !important;
+}
+
+.link {
+    margin-top: 5px !important;
+    justify-self: end !important;
+}
+
+#logo:hover,
+#link:hover,
+.list:hover {
+    opacity: 0.5 !important;
+}
+
+/* about-me page */
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.about {
+    border-top: 3px solid black;
+    background: white;
+    width: 100%;
+    color: black;
+}
+
+#me {
+    height: 90vh;
+    float: left;
+    /* width: 50%; */
+    margin-right: 15px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+#about-me {
+    height: 100vh;
+    padding: 10px;
+    text-align: center;
+}
+
+.text {
+    font-size: 22px;
+    padding: 15px;
+    margin-top: 20px;
+    position: relative;
+    text-align: left;
+}
+
+/* portfolio page */
+.back2 {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+#portfolio {
+    padding: 200px;
+    padding-top: 60px;
+    justify-content: center;
+} 
+
+.carousel-item {
+    height: 680px;
+    width: 100vw;
+}
+
+.carousel-item::after {
+    content: "";
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    opacity: 0.25;
+}
