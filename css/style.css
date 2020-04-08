@@ -101,7 +101,7 @@ nav {
 } 
 
 .carousel-item {
-    height: 680px;
+    height: 640px;
     width: 100vw;
 }
 
@@ -113,5 +113,5 @@ nav {
     position: absolute;
     top: 0;
     left: 0; 
-    opacity: 0.25;
+    opacity: 0.2;
 }
