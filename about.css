@@ -1,64 +1,69 @@
 /* general styling */
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    /* background-image: url("2me.JPG"); */
-    background-color: black;
-    /* background-position-y: -200px;
-    background-position-x: 300px;
-    background-size: 100%; */
-    scroll-behavior: smooth;
-    color: white;
-    overflow: hidden;
+    background: black;
 }
 
 /* navbar */
-#logo {
-    text-decoration: none;
-    color: white;
-    margin: 15px;
-    font-size: 25px;
+nav {
+    display: grid;
+    grid-template-columns: 2% 1fr 1fr 2%;
+    height: 10vh;
+    align-content: center;
 }
 
-.nav {
+#logo {
+    text-decoration: none;
+    grid-column: 2/3;
+    color: white;
+    font-size: 35px;
+}
+
+.list {
     text-decoration: none;
     color: white;
-    float: right;
-    margin: 15px;
-    margin-right: 10px;
-    font-size: 20px;
+    font-size: 22px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.link {
+    margin-top: 5px;
+    justify-self: end;
 }
 
 #logo:hover,
-.nav:hover {
+#link:hover {
     opacity: 0.5;
 }
 
-.main-container {
-    margin-top: 2%;
-    background-image: url("2me.JPG");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: -200px;
-    background-position-x: 260px;
-    /* padding: 10px; */
+/* about-me page */
+.about {
+    border: 10px solid brown;
+    width: 100%;
 }
 
 #me {
-    float: right;
-    margin-left: -220px;
+    height: 100vh;
+    float: left;
+    border-right: 10px solid black;
 }
 
-.main-section {
-    background-color: black;
-    font-size: 22px;
-    padding: 20px;
-    padding-left: 25px;
-    /* opacity: 0.7; */
-    margin: 25px;
-    margin-right: 60%;
-    position: relative;
-    margin-left: 0px;
+#about-me {
+    height: 100vh;
+    padding: 10px;
+    text-align: center;
 }
+
+.text {
+    font-size: 22px;
+    color: white;
+    margin: 15px;
+    margin-top: 20px;
+}
+
