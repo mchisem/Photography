@@ -11,31 +11,38 @@ body {
 
 /* navbar */
 nav {
+    width: 100% !important;
+    font-size: 23px !important;
+    padding: 35px;
+    z-index: 999;
     left: 0;
     top: 0;
+    line-height: 2rem;
+    position: fixed !important;
     background: none;
-    z-index: 999;
-    width: 100%;
-    padding: 55px;
-    position: fixed;
-    font-size: 24px;
 }
 
-#home {
-    color: white;
-    text-decoration: none;
-    float: left;
+#home,
+#port,
+#abt {
+    color: white !important;
+    text-decoration: none !important;
+    float: left !important;
 }
 
-#resume {
-    float: right;
-    color: white;
-    text-decoration: none;
+#cont {
+    float: right !important;
+    color: white !important;
+    text-decoration: none !important;
 }
 
 #home:hover,
-#resume:hover {
-    opacity: 0.5;
+#abt:hover,
+#port:hover,
+#cont:hover {
+    opacity: 0.5 !important;
+    transition: transform 150ms;
+    transform: translateY(-3px);
 }
 
 /* about-me page */
@@ -49,13 +56,15 @@ nav {
 }
 
 #title {
+    padding-left: 10px;
     padding-right: 10px;
-    border-right: 2px solid white;
-    font-size: 100px;
-    color: white;
+    border: 2px solid white;
+    background: white;
+    font-size: 90px;
+    color: black;
     position: absolute;
-    left: 25%;
-    top: 20%;
+    left: 28%;
+    top: 26%;
     transform: rotate(360deg);
 }
 
@@ -70,12 +79,12 @@ nav {
 .text {
     font-size: 26px;
     padding: 15px;
-    margin-top: 20%;
+    margin-top: 19.5%;
     position: relative;
     text-align: left;
     width: 42%;
-    left: 31%;
-    border-top: 2px solid white;
+    left: 34%;
+    /* border-top: 2px solid white; */
 }
 
 .fa {
