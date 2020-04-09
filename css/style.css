@@ -6,81 +6,85 @@
 }
 
 body {
-    overflow: hidden;
     font-family: 'Times New Roman', Times, serif !important;
 }
 
 /* navbar */
 nav {
+    left: 0;
+    top: 0;
     background: none;
-    display: grid !important;
-    grid-template-columns: 2% 1fr 1fr 2% !important;
-    height: 10vh !important;
-    align-content: center !important;
+    z-index: 999;
+    width: 100%;
+    padding: 55px;
+    position: fixed;
+    font-size: 24px;
 }
 
-#logo {
-    text-decoration: none !important;
-    grid-column: 2/3 !important;
-    color: white !important;
-    font-size: 35px !important;
-}
-
-.list {
-    text-decoration: none;
+#home {
     color: white;
-    font-size: 22px !important;
-    margin-left: 10px !important;
-    padding: 5px !important;
+    text-decoration: none;
+    float: left;
 }
 
-.link {
-    margin-top: 5px !important;
-    justify-self: end !important;
+#resume {
+    float: right;
+    color: white;
+    text-decoration: none;
 }
 
-#logo:hover,
-#link:hover,
-.list:hover {
-    opacity: 0.5 !important;
+#home:hover,
+#resume:hover {
+    opacity: 0.5;
 }
 
 /* about-me page */
-.back {
+#name {
+    font-size: 100px;
+    color: white;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    left: 32%;
+    top: 20%;
+    border-bottom: 2px solid white;
 }
 
-.about {
-    border-top: 3px solid black;
-    background: white;
-    width: 100%;
-    color: black;
-}
-
-#me {
-    height: 90vh;
-    float: left;
-    /* width: 50%; */
-    margin-right: 15px;
-    border-right: 3px solid black;
-    border-bottom: 3px solid black;
+#title {
+    padding-right: 10px;
+    border-right: 2px solid white;
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    transform: rotate(360deg);
 }
 
 #about-me {
+    color: white;
     height: 100vh;
     padding: 10px;
     text-align: center;
+    background-color: black;
 }
 
 .text {
-    font-size: 22px;
+    font-size: 26px;
     padding: 15px;
-    margin-top: 20px;
+    margin-top: 20%;
     position: relative;
     text-align: left;
+    width: 42%;
+    left: 31%;
+    border-top: 2px solid white;
+}
+
+.fa {
+    text-decoration: none;
+    color: white;
+}
+
+.fa:hover {
+    color: cornflowerblue;
 }
 
 /* portfolio page */
