@@ -1,0 +1,82 @@
+    <div class="slideshow-container" id="portfolio">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="portrait.html">
+                <img src="pics/portrait/1jide.jpg" class="d-block w-100" style="background-position-y: center;" alt="arria">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="headline">Portrait</h5>
+                  <p class="caption">Click here to see some of my best portrait shots.</p>
+                </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="product.html">
+                <img src="pics/product/1doubleK.jpg" class="d-block w-100" alt="product">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="headline">Product</h5>
+                  <p class="caption">Click here to see some of my favorite product shots.</p>
+                </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="couples.html">
+                <img src="pics/couple/1ponds.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="headline">Couple</h5>
+                  <p class="caption">Click here to see a wedding, a couple of engagements, and an idea.</p>
+                </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="event.html">
+                <img src="pics/event/1event.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="headline">Event</h5>
+                  <p class="caption">Click here to see events I've worked.</p>
+                </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="maternity.html">
+                <img src="pics/maternity/1maternity.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="headline">Maternity</h5>
+                  <p class="caption">Click here to see here my take on Motherhood.</p>
+                </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="alt.html">
+                <img src="pics/body/1body.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="headline">Alternative</h5>
+                  <p class="caption">Click here to see some of my edits.</p>
+                </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="landscape.html">
+                <img src="pics/landscape/1landscape.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="headline">Landscape</h5>
+                  <p class="caption">Click here to see my take on buildings.</p>
+                </div>
+                </a>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </div>

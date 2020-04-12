@@ -68,7 +68,7 @@ nav {
     transform: rotate(360deg);
 }
 
-#about-me {
+.about {
     color: white;
     height: 100vh;
     padding: 10px;
@@ -84,7 +84,6 @@ nav {
     text-align: left;
     width: 42%;
     left: 34%;
-    /* border-top: 2px solid white; */
 }
 
 .fa {
@@ -93,12 +92,11 @@ nav {
 }
 
 .fa:hover {
-    color: cornflowerblue;
+    opacity: 0.5;
 }
 
 /* portfolio page */
 .back2 {
-    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -110,17 +108,13 @@ nav {
 #portfolio {
     padding: 200px;
     padding-top: 150px;
+    padding-bottom: 11vh;
     justify-content: center;
 } 
 
 .headline {
     font-size: 45px;
 }
-
-/* .headline:hover,
-.caption {
-    background-color: black;
-} */
 
 .carousel-item {
     height: 640px;
@@ -137,4 +131,131 @@ nav {
     top: 0;
     left: 0; 
     opacity: 0.1;
+}
+
+
+
+#folio {
+    font-size: 60px;
+    padding: 60px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.show-case {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+.go-to {
+    text-align: center;
+}
+
+.img {
+    height: 65vh;
+    margin: 20px;
+}
+
+.img:hover {
+    opacity: 0.9;
+}
+
+#portrait,
+#couple,
+#maternity,
+#landscape {
+    float: left;
+    margin-left: 140px;
+}
+
+#portrait{
+     /* transform: translateY(150px); */
+     animation: port 2s ease forwards;
+     /* opacity: 0; */
+}
+
+/* @keyframes port {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: 140px;
+        opacity: 1;
+    }
+} */
+
+#landscape {
+    padding-bottom: 40px;
+}
+
+#product,
+#event,
+#alt {
+    float: right;
+    margin-right: 140px;
+}
+
+.info {
+    font-size: 40px;
+    margin-top: 17%;
+}
+
+.info:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#port-info,
+#couple-info,
+#mat-info,
+#land-info {
+    float: right;
+    margin-right: 15%;
+}
+
+#pro-info,
+#event-info,
+#alt-info {
+    float: left;
+    margin-left: 15%;
+
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    padding: 20px;
+    font-size: 15px;
+    color: red;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    text-decoration: none;
+    opacity: 0.7;
+    bottom: 0;
+}
+
+/* contact page */
+.contact {
+    color: white;
+    height: 100vh;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
+
+.context {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 70%;
+    font-size: 26px;
 }
