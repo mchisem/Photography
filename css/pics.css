@@ -66,7 +66,7 @@ nav {
 #next,
 #prev {
     position: fixed;
-    top: 58%;
+    top: 60%;
 }
 
 #prev {
@@ -90,10 +90,12 @@ nav {
     width: 400px;
     height: 500px;
     padding: 10px;
+    z-index: -1;
 }
 
 .image:hover {
     opacity: 0.5;
+    cursor: pointer;
 }
 
 /* footer */
@@ -111,11 +113,62 @@ nav {
 }
 
 /* enlarge image */
-.modal {
-    margin-top: 0%;
-    align-content: center;
-}
-
 .hide {
     display: none;
+}
+
+#back {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#back::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.modal-content {
+    position: relative;
+    top: 10%;
+    right: 0;
+    left: 0;
+    height: 80vh;
+    z-index: 3;
+}
+
+.modal-content::after {
+    content: "";
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+#close {
+    position: relative;
+    color: black;
+    font-weight: bold;
+    border-radius: 10%;
+    font-size: 35px;
+    padding-left: 9px;
+    padding-right: 9px;
+    top: -60%;
+    border-radius: 90%;
+    background-color: chartreuse;
+    margin: 0;
+}
+
+#close:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
