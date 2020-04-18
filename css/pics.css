@@ -124,49 +124,42 @@ nav {
     align-content: center;
     text-align: center;
     background-color: black;
+    opacity: 0.6;
     top: 0;
     right: 0;
     left: 0;
 }
 
-#back::after {
-    content: "";
+#content {
     height: 100%;
     width: 100%;
-    color: black;
-    opacity: 1;
-    z-index: 999;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .modal-content {
-    position: relative;
-    top: 10%;
-    right: 0;
-    left: 0;
+    position: fixed;
+    top: 11%;
+    left: 32%;
     height: 80vh;
-    z-index: 3;
-}
-
-.modal-content::after {
-    content: "";
-    opacity: 1;
-    width: 100%;
-    height: 100%;
-    z-index: 3;
+    z-index: 999;
 }
 
 #close {
-    position: relative;
-    color: black;
+    position: fixed;
+    color: white;
     font-weight: bold;
     border-radius: 10%;
     font-size: 35px;
     padding-left: 9px;
     padding-right: 9px;
-    top: -60%;
+    top: 15%;
+    right: 30%;
     border-radius: 90%;
-    background-color: white;
+    /* background-color: white; */
     margin: 0;
+    z-index: 999;
 }
 
 #close:hover {

@@ -1,3 +1,42 @@
+.back2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+#portfolio {
+    padding: 200px;
+    padding-top: 150px;
+    padding-bottom: 11vh;
+    justify-content: center;
+} 
+
+.headline {
+    font-size: 45px;
+}
+
+.carousel-item {
+    height: 640px;
+    width: 100vw;
+    font-size: 22px;
+}
+
+.carousel-item::after {
+    content: "";
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    opacity: 0.1;
+}   
+   
+   
+   
     <div class="slideshow-container" id="portfolio">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
