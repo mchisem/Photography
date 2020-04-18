@@ -123,6 +123,7 @@ nav {
     height: 100%;
     align-content: center;
     text-align: center;
+    background-color: black;
     top: 0;
     right: 0;
     left: 0;
@@ -133,8 +134,8 @@ nav {
     height: 100%;
     width: 100%;
     color: black;
-    opacity: 0.5;
-    z-index: 1;
+    opacity: 1;
+    z-index: 999;
 }
 
 .modal-content {
@@ -164,7 +165,7 @@ nav {
     padding-right: 9px;
     top: -60%;
     border-radius: 90%;
-    background-color: chartreuse;
+    background-color: white;
     margin: 0;
 }
 
