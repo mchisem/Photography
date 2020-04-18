@@ -23,6 +23,13 @@ nav {
     position: fixed;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    nav {
+        margin-bottom: 10%;
+    }
+  }
+
 #logo,
 #portfolio,
 #about,
@@ -50,21 +57,19 @@ nav {
     margin-top: 8%;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .title {
+        padding-top: 33%;
+    }
+  }
+
 /* arrows */
 #next,
 #prev {
     text-decoration: none;
     color: black;
     font-size: 20px;
-}
-
-#next:hover,
-#prev:hover {
-    opacity: 0.5;
-}
-
-#next,
-#prev {
     position: fixed;
     top: 60%;
 }
@@ -77,6 +82,22 @@ nav {
     right: 3%;
 }
 
+#next:hover,
+#prev:hover {
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #next,
+    #prev {
+        color: white;
+        /* background-color: grey; */
+        border-radius: 100%;
+        padding: 5px;
+    }
+  }
+
 /* image container */
 .container {
     margin-top: 6%;
@@ -85,6 +106,16 @@ nav {
     width: 100%;
     padding-left: 120px;   
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container {
+        top: 20%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+  }
 
 .image {
     width: 400px;
@@ -98,19 +129,14 @@ nav {
     cursor: pointer;
 }
 
-/* footer */
-#top {
-    font-size: 20px;
-    text-align: center;
-    padding: 35px;
-    padding-bottom: 5px;
-}
-
-.fa {
-    text-decoration: none;
-    color: black;
-    margin-right: 5px;
-}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .image {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+  }
 
 /* enlarge image */
 .hide {
@@ -165,4 +191,18 @@ nav {
 #close:hover {
     cursor: pointer;
     opacity: 0.5;
+}
+
+/* footer */
+#top {
+    font-size: 20px;
+    text-align: center;
+    padding: 35px;
+    padding-bottom: 5px;
+}
+
+.fa {
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
 }
