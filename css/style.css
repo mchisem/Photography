@@ -303,8 +303,11 @@ nav {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #port-info {
-        top: 41%;
-        left: 37%;
+        top: 49%;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
         color: white;
         }
     }
@@ -312,8 +315,11 @@ nav {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #pro-info {
-        top: 80%;
-        left: 20%;
+        top: 88%;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
         color: white;
         }
     }
@@ -321,8 +327,11 @@ nav {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #couple-info {
-        top: 116%;
-        left: 35%;
+        top: 122%;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
         color: white;
         }
     }
@@ -330,8 +339,11 @@ nav {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #event-info {
-        top: 155%;
-        left: 24%;
+        top: 160%;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
         color: white;
         }
     }
@@ -339,8 +351,11 @@ nav {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #mat-info {
-        top: 189%;
-        left: 33%;
+        top: 196%;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
         color: white;
         }
     }
@@ -348,8 +363,11 @@ nav {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #alt-info {
-        top: 223%;
-        left: 19%;
+        top: 230%;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
         color: white;
         }
     }
@@ -357,8 +375,13 @@ nav {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #land-info {
-        top: 261%;
-        left: 35%;
+        top: 269%;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        text-align: center;
         color: white;
         }
     }
