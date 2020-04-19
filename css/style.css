@@ -197,10 +197,6 @@ nav {
     }
   }
 
-.go-to {
-    text-align: center;
-}
-
 .img {
     height: 65vh;
     margin: 20px;
@@ -217,7 +213,6 @@ nav {
     float: left;
     margin-left: 140px;
 }
-
 
 #landscape {
     padding-bottom: 40px;
@@ -272,6 +267,7 @@ nav {
       padding: 0;
       left: 0;
       margin-bottom: 0;
+      text-align: center;
     }
   }
 
@@ -293,94 +289,41 @@ nav {
 @media only screen and (max-width: 768px) {
 /* For mobile phones: */
 .info {
-    /* display: none; */
-    position: absolute;
-    text-decoration: none !important;
-    color: white !important;
+    display: none;
     }
+}
+
+.go-to h2 {
+    opacity: 0;
 }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    #port-info {
-        top: 48%;
-        margin: 0;
-        padding: 0;
-        left: 0;
-        right: 0;
+    .go-to h2 {
+        text-decoration: none;
         color: white;
+        opacity: 1;
         }
     }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    #pro-info {
-        top: 83%;
-        margin: 0;
-        padding: 0;
+    #port-title {
+        position: absolute;
         left: 0;
         right: 0;
-        color: white;
         }
     }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    #couple-info {
-        top: 115%;
-        margin: 0;
-        padding: 0;
-        left: 0;
-        right: 0;
-        color: white;
-        }
-    }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    #event-info {
-        top: 151%;
-        margin: 0;
-        padding: 0;
-        left: 0;
-        right: 0;
-        color: white;
-        }
-    }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    #mat-info {
-        top: 185%;
-        margin: 0;
-        padding: 0;
-        left: 0;
-        right: 0;
-        color: white;
-        }
-    }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    #alt-info {
-        top: 216%;
-        margin: 0;
-        padding: 0;
-        left: 0;
-        right: 0;
-        color: white;
-        }
-    }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    #land-info {
-        top: 251%;
-        margin: 0;
-        padding: 0;
-        left: 0;
-        right: 0;
-        color: white;
+    #pro-title,
+    #couple-title,
+    #event-title,
+    #maternity-title,
+    #alt-title,
+    #land-title {
+        height: 0vh;
         }
     }
 
