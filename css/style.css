@@ -158,7 +158,7 @@ nav {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .black {
-        background: black;
+        background: white;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -192,8 +192,8 @@ nav {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .show-case {
-        background-color: white;
-        color: black !important;
+        background-color: black;
+        color: white !important;
     }
   }
 
