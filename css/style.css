@@ -26,6 +26,7 @@ nav {
     /* For mobile phones: */
     nav {
       width: 100% !important;
+      padding: 4%;
       color: white !important;
     }
   }
