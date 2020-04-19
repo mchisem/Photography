@@ -191,8 +191,7 @@ nav {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .show-case,
-    .back2 {
+    .show-case {
         background-color: black;
         color: white !important;
     }
@@ -322,8 +321,8 @@ nav {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #couple-info {
-        top: 115%;
-        left: 38%;
+        top: 116%;
+        left: 35%;
         color: white;
         }
     }
@@ -331,8 +330,8 @@ nav {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #event-info {
-        top: 152%;
-        left: 26%;
+        top: 155%;
+        left: 24%;
         color: white;
         }
     }
