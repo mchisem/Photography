@@ -394,3 +394,12 @@ footer {
     width: 70%;
     font-size: 26px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .context {
+      width: 100% !important;
+      left: 0;
+      right: 0;
+    }
+  }
