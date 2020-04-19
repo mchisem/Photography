@@ -107,7 +107,6 @@ section {
     }
   }
   
-
 /* footer */ 
 #footer {
     clear: both;
@@ -120,3 +119,10 @@ section {
     opacity: 0.7;
     bottom: 0;
   }
+
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+#footer {
+    font-size: 12px;
+}
+}
