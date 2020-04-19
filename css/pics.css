@@ -150,7 +150,7 @@ nav {
     align-content: center;
     text-align: center;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.7;
     top: 0;
     right: 0;
     left: 0;
@@ -172,6 +172,18 @@ nav {
     z-index: 999;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .modal-content {
+      width: 100%;
+      padding: 3px;
+      margin: 0;
+      left: 0;
+      top: 19%;
+      height: 66%;
+    }
+  }
+
 #close {
     position: fixed;
     color: white;
@@ -187,6 +199,14 @@ nav {
     margin: 0;
     z-index: 999;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #close {
+        right: 0;
+        top: 20%;
+    }
+    }
 
 #close:hover {
     cursor: pointer;
