@@ -67,6 +67,12 @@ nav {
 /*  */
 /* about-me page */
 /*  */
+.top {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #name {
     font-size: 100px;
     color: white;
@@ -104,6 +110,7 @@ nav {
     padding: 10px;
     text-align: center;
     background-color: black;
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -140,6 +147,7 @@ nav {
 .fa {
     text-decoration: none;
     color: white;
+    margin-bottom: 5px;
 }
 
 .fa:hover {
@@ -330,6 +338,11 @@ nav {
 /*  */
 /* contact page */
 /*  */
+.color {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .contact {
     color: white;
     height: 100vh;
@@ -341,7 +354,7 @@ nav {
 
 .context {
     position: absolute;
-    top: 35%;
+    top: 33%;
     left: 15%;
     width: 70%;
     font-size: 26px;
@@ -353,5 +366,35 @@ nav {
       width: 100% !important;
       left: 0;
       right: 0;
+    }
+  }
+
+/*  */
+/* footer */
+/*  */
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 1%;
+    color: white;
+}
+
+#portfolio-footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: -425%;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #portfolio-footer {
+      display: none;
     }
   }
